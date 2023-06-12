@@ -482,12 +482,11 @@ img {
   fill: var(--logo-footer);
 }
 
-.footer-soc-link:hover {
-background-color: #31d0aa;
+.footer-soc-link:hover .footer-soc-icon {
+  background-color: #31d0aa;
 }
 
-.team-soc-link:focus,
-.team-soc-link:active {
+.team-soc-link:focus .footer-soc-icon {
   background-color: #31d0aa;
 }
 
