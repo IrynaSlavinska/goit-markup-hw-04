@@ -482,7 +482,8 @@ img {
   fill: var(--logo-footer);
 }
 
-.footer-soc-link:hover, .team-soc-link:focus {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
 /* 
@@ -616,10 +617,10 @@ img {
   transition: transform var(--transition-effect);
 }
 
-.projects-item:hover .portfolio-cover-text {
+.projects-link:hover .portfolio-cover-text {
   transform: translateY(0%);
 }
-.projects-item:focus .portfolio-cover-text {
+.projects-link:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
 
